@@ -21,6 +21,7 @@ mkdir $HOME/dev
 # Create sites subdirectories
 mkdir $HOME/dev/unibe
 mkdir $HOME/dev/sandbox
+mkdir -p .config/newsboat
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
