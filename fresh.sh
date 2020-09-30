@@ -30,6 +30,9 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
+# Symlink the Mackup config file to the home directory
+ln -s $HOME/.dotfiles/.tmux.conf $HOME/.tmux.conf
+
 # Symlink the newsboat config to home directory
 ln -s $HOME/.dotfiles/.newsboat $HOME/.newsboat
 
