@@ -65,6 +65,8 @@ ZSH_THEME="apple"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
 HIST_STAMPS="dd/mm/yyyy"
+HISTSIZE=10000000
+SAVEHIST=10000000
 
 # Would you like to use another custom folder than $ZSH/custom?
 ZSH_CUSTOM=$DOTFILES
@@ -74,7 +76,7 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git z mvn tmux brew postgres osx)
 
 source $ZSH/oh-my-zsh.sh
 

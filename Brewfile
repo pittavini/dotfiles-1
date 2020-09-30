@@ -5,13 +5,17 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 # Binaries
-brew 'coreutils' # Those that come with macOS are outdated
-brew 'ffmpeg'
 brew 'git'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
-brew 'stripe'
-brew 'svn'
+brew 'w3m'
+brew 'surfraw'
+brew 'mpv'
+brew 'task-spooler'
+brew 'tmux'
+brew 'transmission-cli'
+brew 'watch'
+brew 'fzf'
 
 # Development
 brew 'maven'
@@ -36,10 +40,4 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Byword', id: 420212497
-mas 'Giphy Capture', id: 668208984
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Spark', id: 1176895641
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
+# mas 'Byword', id: 420212497
